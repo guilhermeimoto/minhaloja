@@ -15,8 +15,39 @@
 
 .image-2{
     background-image: url("/img/thor_header.jpg");
+    height: 85vh;
+    padding: 70px 0 70px 0;
+    color: #fff;
+}
+
+.image-2 h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.image-2 .underline{
+    margin: 8px auto 0 auto;
+    height: 4px;
+    width: 100px;
+    background-color: #fff;
 }
 
 .image-3{
     background-image: url("/img/bonecos.png");
 }
+
+.container-text{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 40px;
+    padding-right: 40px;
+}
+
+.container-text .text-quemsomos{
+    width: 45%;
+    font-size: 20px;
+}
+
+
+
