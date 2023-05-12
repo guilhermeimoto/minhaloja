@@ -31,6 +31,10 @@
     opacity: 1;
 }
 
+.header .underline.ativo{
+    opacity: 1 !important;
+}
+
 #logo{
     margin-right: 60px;
 }
