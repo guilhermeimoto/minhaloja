@@ -1,26 +1,32 @@
 .header{
-    display: flex;
     width: 100%;
     height: 10vh;
     position: absolute;
-    align-items: center;
-    padding-top: 20px;
 }
 
-.menuprincipal{
+.header ul{
+    list-style: none;
+    padding: 10px 20px;
     display: flex;
-    width: 30%;
-    margin-left: 3%;
-    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
 }
 
-.menuprincipal a{
-    color: white;
+.header li{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.header a{
+    color: #fff;
     text-decoration: none;
 }
 
-.logo{
-    width: 100%;
-    max-width: 100%;
+#logo{
+    margin-right: 60px;
 }
 
+#logo img{
+    max-width: 150px;
+}
