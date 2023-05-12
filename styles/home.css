@@ -1,0 +1,22 @@
+#principal{
+    height: fit-content;
+    min-height: 100vh;
+}
+
+.image-1, .image-2, .image-3{
+    height: 100vh;
+    background-position: top;
+    background-size: cover;
+}
+
+.image-1{
+    background-image: url("/img/header.jpg");
+}
+
+.image-2{
+    background-image: url("/img/thor_header.jpg");
+}
+
+.image-3{
+    background-image: url("/img/bonecos.png");
+}

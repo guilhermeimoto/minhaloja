@@ -1,0 +1,26 @@
+.header{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.menuprincipal{
+    display: flex;
+    width: 30%;
+    margin-left: 3%;
+    justify-content: space-around;
+}
+
+.menuprincipal a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    width: 100%;
+    max-width: 100%;
+}
+
