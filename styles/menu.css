@@ -23,6 +23,14 @@
     text-decoration: none;
 }
 
+.header a .underline{
+    opacity: 0;
+}
+
+.header a:hover .underline{
+    opacity: 1;
+}
+
 #logo{
     margin-right: 60px;
 }
@@ -30,3 +38,4 @@
 #logo img{
     max-width: 150px;
 }
+
