@@ -1,53 +1,100 @@
-#principal{
+#principal {
     height: fit-content;
     min-height: 100vh;
 }
 
-.image-1, .image-2, .image-3{
+#image-1,
+#image-2,
+#image-3 {
     height: 100vh;
     background-position: top;
     background-size: cover;
 }
 
-.image-1{
+#image-1 {
     background-image: url("/img/header.jpg");
 }
 
-.image-2{
+#image-2,
+#image-3 {
+    padding: 70px 0 70px 0;
+}
+
+#image-2 {
     background-image: url("/img/thor_header.jpg");
     height: 85vh;
-    padding: 70px 0 70px 0;
     color: #fff;
 }
 
-.image-2 h1{
+#image-3 {
+    background-image: url("/img/bonecos.png");
+    background-size: auto 50%;
+    background-repeat: no-repeat;
+    background-position: center left;
+    height: 85vh;
+}
+
+#image-2 h1,
+#image-3 h1 {
     text-align: center;
     font-size: 30px;
     font-weight: 800;
 }
 
-.image-2 .underline{
+#image-2 .underline,
+#image-3 .underline {
     margin: 8px auto 0 auto;
     height: 4px;
     width: 100px;
+}
+
+#image-2 .underline {
     background-color: #fff;
 }
 
-.image-3{
-    background-image: url("/img/bonecos.png");
+#image-3 .underline {
+    background-color: #ff9f43;
 }
 
-.container-text{
+.container-text {
     display: flex;
     justify-content: flex-end;
     padding-top: 40px;
     padding-right: 40px;
 }
 
-.container-text .text-quemsomos{
+.container-text .text {
     width: 45%;
     font-size: 20px;
 }
 
+.botao {
+    background: rgb(255, 155, 131);
+    background: -moz-linear-gradient(
+        180deg,
+        rgba(255, 155, 131, 1) 0%,
+        rgba(255, 50, 0, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+        180deg,
+        rgba(255, 155, 131, 1) 0%,
+        rgba(255, 50, 0, 1) 100%
+    );
+    background: linear-gradient(
+        180deg,
+        rgba(255, 155, 131, 1) 0%,
+        rgba(255, 50, 0, 1) 100%
+    );
 
+    -webkit-box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 1);
+    box-shadow: 0px 0px 20px -1px rgba(0, 0, 0, 1);
 
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff9b83",endColorstr="#ff3200",GradientType=1);
+    border: 0;
+    padding: 18px 30px;
+    border-radius: 17px;
+    margin-top: 25px;
+    color: #fff;
+    font-weight: bold;
+}
