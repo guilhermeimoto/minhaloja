@@ -12,7 +12,7 @@
 }
 
 #image-1 {
-    background-image: url("/img/header.jpg");
+    background-image: url("../img/header.jpg");
 }
 
 #image-2,
@@ -21,13 +21,13 @@
 }
 
 #image-2 {
-    background-image: url("/img/thor_header.jpg");
+    background-image: url("../img/thor_header.jpg");
     height: 85vh;
     color: #fff;
 }
 
 #image-3 {
-    background-image: url("/img/bonecos.png");
+    background-image: url("../img/bonecos.png");
     background-size: auto 50%;
     background-repeat: no-repeat;
     background-position: center left;
